@@ -3,36 +3,40 @@
 
 <head>
     <title>Ross Blair's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <h1>Ross Blair</h1>
-    <section>
-        <a href="index.html" target="_self">About</a>
-    </section>
-    <section>
-        <a href="portfolio.html" target="_self">Portfolio</a>
-    </section>
-    <section>
-        <a href="contact.html" target="_self">Contact</a>
-    </section>
-    <section>
+    <div class="header">
+        <h1>Ross Blair</h1>
+        <section id="about">
+            <a href="index.html" target="_self">About</a>
+        </section>
+        <section id="portfolio">
+            <a href="portfolio.html" target="_self">Portfolio</a>
+        </section>
+        <section id="contact">
+            <a href="contact.html" target="_self">Contact</a>
+        </section>
+    </div>
+    <section class="main">
         <h2>About Me</h2>
-        <img src="http://via.placeholder.com/200x150" alt="Ross Blair" title="Ross Blair">
+        <img id="picme" src="./assets/images/me.png" alt="Ross Blair and his girl" title="Ross Blair and his girl">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac rhoncus magna. Phasellus ornare interdum sem vitae elementum. Nullam sem leo, sodales sit amet ultrices non, mattis eget leo. Nulla eu auctor nisl. Duis eu facilisis dolor. Cras euismod eros consectetur magna posuere luctus. Donec commodo ipsum eu dolor placerat hendrerit. Pellentesque malesuada mi dolor, non molestie nulla sagittis et. Duis tempor lorem id ullamcorper lacinia. Suspendisse potenti. Sed sit amet nisi libero.
+            I was born July 6th, 1989. My mother was a bartender and my father was a teacher, but both have since retired. From an early start, I have always liked to express my creativity in different ways. I started with paint and pencil, then moved to woodworking. Now I am trying my hand at web design!
         </p>
         <p>
-            Duis non eros urna. Duis pharetra sit amet urna in malesuada. Fusce eget orci sit amet nunc euismod efficitur. Integer eget laoreet tellus. Nullam sed eleifend risus. Nullam tempor ex a commodo porta. Quisque non sollicitudin ex. Quisque sed tortor eget nulla egestas ullamcorper vel blandit justo. Aliquam elementum lacus sed velit lacinia placerat. Phasellus id egestas nisl. Pellentesque dignissim venenatis auctor. Aliquam erat volutpat.
+            In my spare time, I am an avid video gamer. I also enjoy experiencing new food, whether it be in my own kitchen, or at some new restaraunt. I live with my girlfriend of 9 years in a stupid apartment.
         </p>
     </section>
-    <section>
+    <section class="sidebar">
         <h3>Connect with Me</h3>
-        <a href="https://github.com/MountainBed" target="_blank"><img src="./assets/images/GitHubLogo.png" alt="github profile" title="github profile"></a>
-        <a href="https://www.linkedin.com/in/ross-blair-425122140/" target="_blank"><img src="./assets/images/LinkedInLogo.png" alt="LinkedIn profile" title="LinkedIn profile"></a>
-        <a href="https://stackoverflow.com/users/8066252/mountainbed" target="_blank"><img src="./assets/images/StackOverflowLogo.png" alt="stackoverflow profile" title="stackoverflow profile"></a>
+        <a href="https://github.com/MountainBed" target="_blank"><img id="github" src="./assets/images/GitHubLogo.png" alt="github profile" title="github profile"></a>
+        <a href="https://www.linkedin.com/in/ross-blair-425122140/" target="_blank"><img id="linkedin" src="./assets/images/LinkedInLogo.png" alt="LinkedIn profile" title="LinkedIn profile"></a>
+        <a href="https://stackoverflow.com/users/8066252/mountainbed" target="_blank"><img id="stackoverflow" src="./assets/images/StackOverflowLogo.png" alt="stackoverflow profile" title="stackoverflow profile"></a>
     </section>
-    <footer>
+    <footer class="footer">
         &copy; Copyright 2017 Ross Blair
     </footer>
 </body>
