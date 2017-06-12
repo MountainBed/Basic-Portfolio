@@ -3,12 +3,32 @@ html {
     min-height: 100%;
 }
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url('../images/rockywall.png');
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     width: 960px;
     margin: 0 auto;
+    margin-bottom: 50px;
+    height: 800px;
+    min-height: 100%;
+}
+
+.body2 {
+    background-image: url('../images/rockywall.png');
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    height: 850px;
+    min-height: 100%;
 }
 
 .header {
@@ -23,7 +43,7 @@ body {
 h1 {
     background-color: #4aaaa5;
     width: 200px;
-    height: 30px;
+    height: 90px;
     font-size: 25px;
     margin: 0px;
     text-align: center;
@@ -35,7 +55,7 @@ h1 {
 
 #about {
     float: left;
-    width: 100px;
+    width: 558px;
     border-right: 2px solid #ddd;
     text-align: center;
     margin-top: 35px;
@@ -51,7 +71,7 @@ h1 {
 
 #contact {
     float: left;
-    width: 100px;
+    width: 102px;
     border-left: 2px solid #ddd;
     text-align: center;
     margin-top: 35px;
@@ -65,8 +85,8 @@ a {
 
 .main {
     clear: both;
-    width: 586px;
-    height: 560px;
+    width: 650px;
+    height: 620px;
     background-color: #ffffff;
     border: 2px solid #dddddd;
     padding: 30px;
@@ -88,7 +108,7 @@ h2 {
 
 #picme {
     float: left;
-    padding: 15px 20px 20px 0px;
+    padding: 15px 20px 0px 0px;
     width: 200px;
 }
 
@@ -117,7 +137,7 @@ h3 {
 }
 
 #github {
-    width: 60px;
+    width: 70px;
     height: 60px;
     margin-top: 27px;
     margin-left: 30px;
@@ -126,7 +146,7 @@ h3 {
 }
 
 #linkedin {
-    width: 60px;
+    width: 70px;
     height: 60px;
     margin-top: 27px;
     margin-bottom: 45px;
@@ -154,4 +174,122 @@ h3 {
     text-align: center;
     color: #abc;
     font-size: 10px;
+}
+
+.main2 {
+    clear: both;
+    width: 650px;
+    height: 100%;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    padding: 30px;
+    float: left;
+    margin-top: 40px;
+    margin-right: 40px;
+    position: relative;
+}
+
+.images {
+    display: inline-block;
+    width: 260px;
+    height: 200px;
+    float: left;
+    margin-right: 60px;
+}
+
+#hangman1,
+#RPG1,
+#trivia1,
+#rutgers1,
+#rock1 {
+    width: 260px;
+    height: 200px;
+    position: absolute;
+}
+
+#hangman2,
+#RPG2,
+#trivia2,
+#rutgers2,
+#rock2 {
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: #FFFFFF;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    width: 260px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 5px;
+    position: relative;
+    left: 0;
+    bottom: -120px;
+}
+
+#trivia1 {
+    left: 20;
+    top: 380px;
+}
+
+#trivia2 {
+    left: 20;
+    top: 165px;
+    z-index: 10;
+}
+
+#rutgers1 {
+    right: 36px;
+    top: 380px;
+}
+
+#rutgers2 {
+    right: 36px;
+    top: 275px;
+    z-index: 10;
+}
+
+#rock1 {
+    left: 30px;
+    bottom: 20px;
+}
+
+#rock2 {
+    left: 0;
+    bottom: -210px;
+    z-index: 10;
+}
+
+.inputfield {
+    line-height: 100%;
+    font-size: 20px;
+    color: #777777;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+#name,
+#email {
+    height: 35px;
+}
+
+#message {
+    padding: 0 0 165px 0;
+}
+
+input {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+#button {
+    background-color: #4aaaa5;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    color: #FFFFFF;
+    border: none;
 }

@@ -3,47 +3,53 @@
 
 <head>
     <title>Ross Blair's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <h1>Ross Blair</h1>
-    <section>
-        <a href="index.html" target="_self">About</a>
-    </section>
-    <section>
-        <a href="portfolio.html" target="_self">Portfolio</a>
-    </section>
-    <section>
-        <a href="contact.html" target="_self">Contact</a>
-    </section>
-    <div>
-        <h2>Contact</h2>
-        <section>
-            <p>Name</p>
-            <input type="text" name="Name" placeholder="John Smith">
-            <br>
+    <div class="header">
+        <h1>Ross Blair</h1>
+        <section id="about">
+            <a href="index.html" target="_self">About</a>
         </section>
-        <section>
-            <p>Email</p>
-            <input type="text" name="email" placeholder="example@gmail.com">
-            <br>
+        <section id="portfolio">
+            <a href="portfolio.html" target="_self">Portfolio</a>
         </section>
-        <section>
-            <p>Message</p>
-            <input type="text" name="message" placeholder="">
-            <br>
-        </section>
-        <section>
-            <input type="submit" value="Submit">
+        <section id="contact">
+            <a href="contact.html" target="_self">Contact</a>
         </section>
     </div>
-    <section>
+    <div class="main">
+        <h2>Contact</h2>
+        <form>
+            <section>
+                <p class="inputfield">Name</p>
+                <input id="name" type="text" name="Name" placeholder="  John Smith">
+                <br>
+            </section>
+            <section>
+                <p class="inputfield">Email</p>
+                <input id="email" type="text" name="email" placeholder="  example@gmail.com">
+                <br>
+            </section>
+            <section>
+                <p class="inputfield">Message</p>
+                <input id="message" type="text" name="message" placeholder="">
+                <br>
+            </section>
+            <section>
+                <input id="button" type="submit" value="Submit">
+            </section>
+        </form>
+    </div>
+    <section class="sidebar">
         <h3>Connect with Me</h3>
-        <a href="https://github.com/MountainBed" target="_blank"><img src="./assets/images/GitHubLogo.png" alt="github profile" title="github profile"></a>
-        <a href="https://www.linkedin.com/in/ross-blair-425122140/" target="_blank"><img src="./assets/images/LinkedInLogo.png" alt="LinkedIn profile" title="LinkedIn profile"></a>
-        <a href="https://stackoverflow.com/users/8066252/mountainbed" target="_blank"><img src="./assets/images/StackOverflowLogo.png" alt="stackoverflow profile" title="stackoverflow profile"></a>
+        <a href="https://github.com/MountainBed" target="_blank"><img id="github" src="./assets/images/GitHubLogo.png" alt="github profile" title="github profile"></a>
+        <a href="https://www.linkedin.com/in/ross-blair-425122140/" target="_blank"><img id="linkedin" src="./assets/images/LinkedInLogo.png" alt="LinkedIn profile" title="LinkedIn profile"></a>
+        <a href="https://stackoverflow.com/users/8066252/mountainbed" target="_blank"><img id="stackoverflow" src="./assets/images/StackOverflowLogo.png" alt="stackoverflow profile" title="stackoverflow profile"></a>
     </section>
-    <footer>
+    <footer class="footer">
         &copy; Copyright 2017 Ross Blair
     </footer>
 </body>

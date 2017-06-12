@@ -3,48 +3,55 @@
 
 <head>
     <title>Ross Blair's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
-    <h1>Ross Blair</h1>
-    <section>
-        <a href="index.html" target="_self">About</a>
-    </section>
-    <section>
-        <a href="portfolio.html" target="_self">Portfolio</a>
-    </section>
-    <section>
-        <a href="contact.html" target="_self">Contact</a>
-    </section>
-    <div>
-        <h2>Portfolio</h2>
-        <section>
-            <img src="http://via.placeholder.com/250x200" alt="hangman" title="hangman">
-            <p>Hangman</p>
+<body class="body2">
+    <div class="header">
+        <h1>Ross Blair</h1>
+        <section id="about">
+            <a href="index.html" target="_self">About</a>
         </section>
-        <section>
-            <img src="http://via.placeholder.com/250x200" alt="rpg game" title="rpg game">
-            <p>RPG Game</p>
+        <section id="portfolio">
+            <a href="portfolio.html" target="_self">Portfolio</a>
         </section>
-        <section>
-            <img src="http://via.placeholder.com/250x200" alt="trivia game" title="trivia game">
-            <p>Trivia Game</p>
-        </section>
-        <section>
-            <img src="http://via.placeholder.com/250x200" alt="rutgers info widget" title="rutgers info widget">
-            <p>Rutgers Info Widget</p>
-        </section>
-        <section>
-            <img src="http://via.placeholder.com/250x200" alt="rock paper scissors" title="rock paper scissors">
-            <p>Rock Paper Scissors</p>
+        <section id="contact">
+            <a href="contact.html" target="_self">Contact</a>
         </section>
     </div>
-    <section>
+    <section class="main2">
+        <h2>Portfolio</h2>
+        <section class="images">
+            <img id="hangman1" src="./assets/images/hangman.jpg" alt="hangman" title="hangman">
+            <p id="hangman2">Hangman</p>
+        </section>
+       <section>
+            <img id="RPG1" src="./assets/images/rpg.jpg" alt="rpg game" title="rpg game">
+            <p id="RPG2">RPG Game</p>
+        </section>
+       <section class="images">
+            <img id="trivia1" src="./assets/images/trivia.jpg" alt="trivia game" title="trivia game">
+            <p id="trivia2">Trivia Game</p>
+        </section>
+        <section>
+            <img id="rutgers1" src="./assets/images/widget.jpg" alt="rutgers info widget" title="rutgers info widget">
+            <p id="rutgers2">Rutgers Info Widget</p>
+        </section>
+        <section class="images">
+            <img id="rock1" src="./assets/images/rock.jpg" alt="rock paper scissors" title="rock paper scissors">
+            <p id="rock2">Rock Paper Scissors</p>
+        </section>
+    </section>
+    <section class="sidebar">
         <h3>Connect with Me</h3>
-        <a href="https://github.com/MountainBed" target="_blank"><img src="./assets/images/GitHubLogo.png" alt="github profile" title="github profile"></a>
-        <a href="https://www.linkedin.com/in/ross-blair-425122140/" target="_blank"><img src="./assets/images/LinkedInLogo.png" alt="LinkedIn profile" title="LinkedIn profile"></a>
-        <a href="https://stackoverflow.com/users/8066252/mountainbed" target="_blank"><img src="./assets/images/StackOverflowLogo.png" alt="stackoverflow profile" title="stackoverflow profile"></a>
+        <a href="https://github.com/MountainBed" target="_blank"><img id="github" src="./assets/images/GitHubLogo.png" alt="github profile" title="github profile"></a>
+        <a href="https://www.linkedin.com/in/ross-blair-425122140/" target="_blank"><img id="linkedin" src="./assets/images/LinkedInLogo.png" alt="LinkedIn profile" title="LinkedIn profile"></a>
+        <a href="https://stackoverflow.com/users/8066252/mountainbed" target="_blank"><img id="stackoverflow" src="./assets/images/StackOverflowLogo.png" alt="stackoverflow profile" title="stackoverflow profile"></a>
     </section>
 </body>
-
+   <!-- <footer class="footer">
+        &copy; Copyright 2017 Ross Blair
+    </footer>-->
 </html>
+
